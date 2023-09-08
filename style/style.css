@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*stylisation de la Navbar*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: yellow;
+    height: 100px;
+}
+
+header li {
+    font-size: 1.2em;
+    float: right;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+    color: green;
+}
+
+#logo img {
+    height: 100px;
+    width: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+#firstimage img {
+    width: 100%;
+    height: 100vh;
+}
+
+.imagespresentation1 {
+    text-align: center;
+    margin: 50px 50px;
+}
+
+.imagespresentation2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 100px 100px;
+}
+
+.ambition {
+    padding: 0 350px 0 0;
+    text-align: justify;
+}
+
+#coach {
+    margin: 100px 100px;
+}
+
+section2 {
+    margin: 50px 50px;
+}
+
+img[src="media/sylvere-b-1080x750.jpeg"] {
+    margin: 100px 100px;
+}
+
+img[src="media/promo-cnamgs_ecole241_.png"] {
+    width: 50%;
+}
+
+footer {
+    background-color: yellow;
+    width: 100%;
+    color: green;
+}
+
+.end {
+    display: flex;
+    justify-content: space-around;
+}
